@@ -1,0 +1,22 @@
+I have 4 workspaces dev,UAT, SIT and prod I want to create a instance with 4 different var.tf files as follows
+DEV 
+OS-ubuntu
+instance type t2.micro
+availability zone ap-south-1a
+
+UAT 
+OS-amazon-linux
+instance type t2.small
+availability zone ap-south-1b
+
+SIT
+OS-redhat
+instance type t2.medium
+availability zone ap-south-1c
+
+PROD
+OS-ubuntu
+instance type t2.large
+availability zone ap-south-1d
+
+I want to store be state file of DEV in DEV directory of s3 bucket and same for the remaining
